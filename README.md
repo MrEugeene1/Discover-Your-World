@@ -2,7 +2,7 @@
 
 An interactive web app that teaches world geography. Click continents on a colorful map or use geolocation to discover famous rivers, mountains, and landmarks across the globe.
 ## Live Demo
-**[🌐 View Live Demo](https://mreugeune1.github.io/Discover-Your-World/Discover_Your_World.html)**
+**[🌐 View Live Demo](https://mreugeene1.github.io/Discover-Your-World/Discover_Your_World.html)**
 
 ### Screenshot
 <img width="1902" height="915" alt="image" src="https://github.com/user-attachments/assets/abd308dc-21e4-412d-af45-e3e6bd84ce74" />
