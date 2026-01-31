@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Your World</title>
+    <!--Added a favicon for my site-->
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicons/favicon-16x16.png">
+    <link rel="manifest" href="Favicons/site.webmanifest">
+    <style>
+        button {
+            display: block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Discover Your World &#x1F30D;<!--Added an emoji here--></h1>
+    <p>Click the button to learn about the continent you're on and some famous geographical features.</p>
+    <button id="discoverLocation">Discover Location</button>
+    <p><strong>💡 Tip:</strong> Click on any continent on the map below to discover its major rivers, mountains, and famous landmarks!</p>
+
+    <img src="Assets/continents.jpg" usemap="#image-map" alt="World Map">
+    <map name="image-map">
+        <!-- Task 5: Add area tags for continents here -->
+        <area id="north-america" alt="North America" title="North America" shape="rect" coords="386,283,41,17" href="#">
+        <area id="south-america" alt="South America" title="South America" shape="rect" coords="209,501,358,288" href="#">
+        <area id="europe" alt="Europe" title="Europe" shape="rect" coords="391,68,505,217" href="#">
+        <area id="africa" alt="Africa" title="Africa" shape="rect" coords="533,217,387,448" href="#">
+        <area id="asia" alt="Asia" title="Asia" shape="rect" coords="893,153,506,1" href="#">
+        <area id="australia-and-oceania" alt="Australia and Oceania" title="Australia and Oceania" shape="rect" coords="679,353,872,480" href="#">
+    </map>
+</body>
+</html>
