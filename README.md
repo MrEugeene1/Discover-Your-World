@@ -7,6 +7,9 @@ An interactive web app that teaches world geography. Click continents on a color
 ### Screenshot
 <img width="1902" height="915" alt="image" src="https://github.com/user-attachments/assets/abd308dc-21e4-412d-af45-e3e6bd84ce74" />
 
+### Video Demo
+<video src="https://github.com/user-attachments/assets/67de05e5-98ce-4307-b62c-186d2e6aded7"  autoplay controls width="600"></video>
+
 ## 📋 Project Description
 Discover Your World is an educational web application that helps users explore global geography through an interactive, color-coded world map. Users can click on any continent to learn about its geographical features or use the geolocation feature to automatically discover information about their current location.
 
